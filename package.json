@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "EventsApp",
+  "version": "1.0.0",
+  "description": "App to share events ",
+  "main": "index.js",
+  "repository": "https://github.com/GlobalTechTalks/EventsApp.git",
+  "author": "Abhishek Khanna <abhishek@imagekit.io>",
+  "license": "MIT",
+  "private": false
+}
