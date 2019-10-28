@@ -4,10 +4,17 @@
   },
   "name": "EventsApp",
   "version": "1.0.0",
-  "description": "App to share events ",
+  "description": "App to share events information",
   "main": "index.js",
   "repository": "https://github.com/GlobalTechTalks/EventsApp.git",
   "author": "Abhishek Khanna <abhishek@imagekit.io>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "sinon": "^7.5.0"
+  }
 }
