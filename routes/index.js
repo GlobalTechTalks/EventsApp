@@ -1,9 +1,10 @@
-async function initializeRoutes(app) {
-    app.get('/', (req, res) => {
-        res.send('All working fine!!');
-    });
-};
+var express = require('express');
+var router = express.Router();
+const passport = require('passport');
 
-module.exports = {
-    initializeRoutes
-}
+router.use('/', function(req,res){
+    res.status(200).send("Done");
+});
+router.use('/auth', require('./auth'));
+
+module.exports = router;
