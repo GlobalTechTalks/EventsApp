@@ -1,17 +1,17 @@
-const express = require('express');
+const Express = require('express');
 const config = require('./config');
-const router = require('./routes');
 
 const serverPort = config.port;
-var indexRouter = require('./routes/index');
-const app = new express();
+const router = require('./app/routes');
+
+const app = new Express();
 
 app.listen(serverPort);
 
-app.use('/', indexRouter);
+app.use('/', router);
 
 router.initializeRoutes(app).then(() => {
-    console.log(`Server started successfully on port: ${serverPort}`);
+  console.log(`Server started successfully on port: ${serverPort}`);
 });
 
 module.exports = app;
