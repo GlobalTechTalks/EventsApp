@@ -16,5 +16,6 @@ In order to keep things tidy, we all will be following a simple guide
 2. Single commit represents single feature addition / bug fix / enhancement. Multiple commits will be squashed at the end in order for cleaner git history.
 3. Make sure you update the changelog after you have completed your feature, the changelog depicts the changes made in this version.
 
+NOTE: Before implementing any code, do make sure you assign the issue to yourself and let the mainatiners know about the approach you will be using in order to implement that feature.
 
 `Happy Hacking!`
