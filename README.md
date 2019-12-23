@@ -5,7 +5,7 @@ A simple & useful application to share events with like minded people. This appl
 The Backend is primarily built on NodeJS.
 We are using 
 1. Node ( 10.16.3 )
-2. Yarn ( 1.19.1 )
+2. NPM ( 6.9.0 )
 
 ## How to setup ?
 The project setup is fairly simple, clone the repo & run yarn install, all the dependencies will be installed for you.

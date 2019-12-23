@@ -22,7 +22,7 @@
     "sinon": "^7.5.0"
   },
   "scripts": {
-    "install": "rm -rf node_modules && yarn install",
+    "install-packages": "rm -rf node_modules && npm install",
     "start": "nodemon server.js",
     "lint": "./node_modules/eslint/bin/eslint.js server.js app/"
   }
