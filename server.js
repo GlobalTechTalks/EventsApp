@@ -10,7 +10,9 @@ app.listen(serverPort);
 
 app.use('/', router);
 
-router.initializeRoutes(app).then(() => {
+router
+  .initializeRoutes(app)
+  .then(() => {
   console.log(`Server started successfully on port: ${serverPort}`);
 });
 
