@@ -3,7 +3,7 @@
     "express": "^4.17.1",
     "uuid": "^3.3.3"
   },
-  "name": "EventsApp",
+  "name": "events-app",
   "version": "1.0.0",
   "description": "App to share events information",
   "main": "index.js",
