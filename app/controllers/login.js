@@ -1,5 +1,3 @@
-module.exports.validate = (email, password) => {
-    return new Promise( (resolve, reject) => {
-        resolve('Default User');
-    });
-};
+module.exports.validate = (email, password) => new Promise((resolve, reject) => {
+  resolve('Default User');
+});

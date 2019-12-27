@@ -12,8 +12,8 @@ app.use(Express.json());
 router
   .initializeRoutes(app)
   .then(() => {
-  console.log(`Server started successfully on port: ${serverPort}`);
-});
+    console.log(`Server started successfully on port: ${serverPort}`);
+  });
 
 app.listen(serverPort);
 
