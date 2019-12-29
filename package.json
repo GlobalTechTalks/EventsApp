@@ -1,27 +1,30 @@
 {
   "dependencies": {
     "express": "^4.17.1",
-    "express-validator": "^6.3.0",
     "uuid": "^3.3.3"
   },
   "name": "events-app",
   "version": "1.0.0",
   "description": "App to share events information",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/GlobalTechTalks/EventsApp.git",
   "author": "Abhishek Khanna <abhishek@imagekit.io>",
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "bcrypt": "^3.0.7",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
-    "dotenv": "^8.2.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
+    "express-validator": "^6.3.1",
     "mocha": "^6.2.2",
+    "moment": "^2.24.0",
+    "nexmo": "^2.5.2",
     "nodemon": "^1.19.4",
     "nyc": "^14.1.1",
+    "passport": "^0.4.1",
     "sinon": "^7.5.0"
   },
   "scripts": {
