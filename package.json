@@ -7,7 +7,7 @@
   "name": "events-app",
   "version": "1.0.0",
   "description": "App to share events information",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/GlobalTechTalks/EventsApp.git",
   "author": "Abhishek Khanna <abhishek@imagekit.io>",
   "license": "MIT",
